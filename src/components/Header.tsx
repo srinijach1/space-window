@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <header className="mb-20">
+        <header className="mb-20 p-25">
 
             <h1 className="text-center text-6xl font-bold">
                 Space Window

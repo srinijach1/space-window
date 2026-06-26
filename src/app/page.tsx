@@ -6,15 +6,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#020617] text-white">
       <Header />
-      <section className="mx-auto max-w-7xl px-8 py-20">
-
-        <h1 className="text-6xl font-bold">
-          Space Window
-        </h1>
-
-        <p className="mt-4 text-gray-400">
-          What can you see in space right now?
-        </p>
+      <section className="mx-auto max-w-5xl px-8">
         
         <div className="mt-16 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           <InfoCard
